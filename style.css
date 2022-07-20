@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://media.gettyimages.com/photos/sustainable-energy-picture-id1399939955?s=2048x2048);
+    background-repeat: no-repeat;
+}
+
+.title--element{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+/*.title--descr{
+    text-align: center;
+    display: flex;
+}*/
+
+#nav--list{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgba(150, 150, 200, 0.75);
+    border-style: solid;
+    border-color: rgba(251, 255, 255, 0.75);
+}
+
+
+.main{
+    padding: 5%;
+    background-color: rgba(251, 255, 255, 0.75);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.my--photo{
+
+    width: 25%;
+    height: 25%;
+}
+
+#current--position{
+    padding: 15px;
+    /*border-style: solid;*/
+}
+
+#coding--lang{
+    margin: 25px;
+    padding: 15px;
+    /*border-style: solid;*/
+}
+
+table.programming--table{  
+    color:#000000;
+    text-align: center; 
+    width: auto; 
+    height: auto; 
+}
+
+table, th, td{
+    border-style: solid;
+    border-collapse: collapse;
+    width: 25%;
+    table-layout: auto;
+}
+
+thead{
+    color: rgb(0, 0, 0); 
+    background-color: rgb(200, 200, 200);
+}
+
+#background{
+    margin: 25px;
+    padding-top: 50px;
+}
+
+#about{
+    margin: 5%;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#about--para{
+    padding: 25px;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-around
+}
+
+table.contact--table{
+    table-layout: auto;
+    text-align: center; 
+    width: 100%; 
+    height: auto; 
+    border-style: solid;
+}
+
+.footer{
+    background-color: rgba(251, 255, 255, 0.75);
+    text-align: center;
+}
